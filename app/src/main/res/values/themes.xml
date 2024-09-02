@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BanglaSms" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.BanglaSms" parent="Base.Theme.BanglaSms" />
+
+    <!--Custom Theme Start Here-->
+    <style name="Poem.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/poem</item>
+    </style>
+
+    <style name="Caption.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/caption</item>
+    </style>
+
+    <style name="Puzzle.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/puzzle</item>
+    </style>
+
+    <style name="Jokes.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/jokes</item>
+    </style>
+
+    <style name="Wish.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/wishsms</item>
+    </style>
+
+    <style name="Love.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/lovesms</item>
+    </style>
+
+    <style name="Quote.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/quote</item>
+    </style>
+
+    <style name="MyPoem.Theme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="title">@string/mypoem</item>
+    </style>
+
+</resources>

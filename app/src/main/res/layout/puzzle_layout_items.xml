@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_bg"
+        android:layout_margin="20dp"
+        android:elevation="20dp"
+        >
+        <TextView
+            android:id="@+id/smsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Prothes"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:layout_gravity="top"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:gravity="right"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/copyBtn"
+                    android:text="Copy "
+                    android:drawableRight="@drawable/copyicons"
+                    android:background="@drawable/btn_ripple_effect"
+                    android:paddingHorizontal="10dp"
+                    android:drawablePadding="10dp"
+                    android:paddingVertical="5dp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/speaker"
+                    android:background="@drawable/btn_ripple_effect"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="12dp"
+                    android:id="@+id/speaker"
+                    android:tag="STOP"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_ripple_effect"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="12dp"
+                    android:src="@drawable/answer"
+                    android:tag="STOP" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="left"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shareBtn"
+                    android:text="Share"
+                    android:drawableRight="@drawable/share"
+                    android:background="@drawable/btn_ripple_effect"
+                    android:paddingHorizontal="10dp"
+                    android:drawablePadding="10dp"
+                    android:paddingVertical="5dp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

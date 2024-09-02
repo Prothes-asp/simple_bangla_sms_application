@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myPoem"
+        android:title="Prothes Poem"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        app:showAsAction="never"
+        />
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BanglaSms"
+        tools:targetApi="31">
+        <activity
+            android:name=".ProthesPoem"
+            android:exported="false"
+            android:theme="@style/MyPoem.Theme"
+            />
+        <activity
+            android:name=".CaptionSms"
+            android:exported="false"
+            android:theme="@style/Caption.Theme" />
+        <activity
+            android:name=".PuzzleTextSms"
+            android:exported="false"
+            android:theme="@style/Puzzle.Theme" />
+        <activity
+            android:name=".JokesSms"
+            android:exported="false"
+            android:theme="@style/Jokes.Theme" />
+        <activity
+            android:name=".PoemSms"
+            android:exported="false"
+            android:theme="@style/Poem.Theme" />
+        <activity
+            android:name=".WishSms"
+            android:exported="false"
+            android:theme="@style/Wish.Theme" />
+        <activity
+            android:name=".LoveSms"
+            android:exported="false"
+            android:theme="@style/Love.Theme" />
+        <activity
+            android:name=".TextRepeater"
+            android:exported="false"
+            android:theme="@style/Base.Theme.BanglaSms" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LifeRealQuote"
+            android:exported="false"
+            android:theme="@style/Quote.Theme" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
